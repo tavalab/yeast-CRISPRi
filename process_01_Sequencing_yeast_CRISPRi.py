@@ -24,7 +24,7 @@ from multiprocessing import Pool
 from Bio import SeqIO
 import csv
 
-DO_TRIM_ADAPTERS	= False;
+DO_TRIM_ADAPTERS	= True;
 DO_ALIGN_SEQUENCES	= True;
 DO_PROCESS_SAMFILES	= True;
 DO_MERGE_FILES		= True;
